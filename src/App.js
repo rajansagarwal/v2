@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Component } from "react";
 import { Container, Row, Col } from 'react-grid-system';
 import './App.css';
 import MovingText from 'react-moving-text'
 import Typist from 'react-text-typist';
 import Typing from 'react-typing-animation';
+import ReactTextTransition, { presets } from "react-text-transition";
+import Transition from './components/Transition';
+import Subnav from './components/Subnav';
+import CircleSprites from './components/Graph';
+
 
 function App() {
 	return (
@@ -11,13 +16,18 @@ function App() {
 			<header className="App-header">
 				<Container>
 					<Row>
-						<Col sm={6}>
-
-							<h1>Rajan Agarwal</h1>
-							
-							<Typist className={'myTypist'} typingSpeed={"110"} cursorClassName={'myCursor'} sentences={['First Sentence', 'Second Sentence', 'Third Sentence']} loop={true} />
+						<Col sm={8}>
+              <h1 className="hey">Hey, </h1>
+							<h1 className="moving"><Transition /></h1>
+							<h1 className="still">I'm Rajan</h1>
+							<Subnav />
+						</Col>
+						<Col sm={4}>
+						
 						</Col>
 					</Row>
+					<h5>MANIFESTO</h5>
+					<p>words</p>
 				</Container>
 			</header>
 		</div>

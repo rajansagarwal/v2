@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+a {
+	text-decoration: none;
+    background-color: #c8deec22;
+		color: white;
+    padding: 0 .2em;
+    border-radius: 3px;
+		padding-top: -30px;
+}
+
+.subnavigation {
+	text-align: left; display: inline-block;
+
+	padding-top: -100px !important;
+}
+
+h1 {
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+
+Subnav {
+		padding-top: -100px;
+}
+
+@media (min-width: 601px) {
+	.subnavigation {
+	font-size: 26px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.subnavigation {
+	font-size: 15px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+}
+
+.transition {
+	padding: 0 !important;
+}
