@@ -7,9 +7,8 @@ import Typing from 'react-typing-animation';
 import ReactTextTransition, { presets } from "react-text-transition";
 import Transition from './components/Transition';
 import Subnav from './components/Subnav';
-import CircleSprites from './components/Graph';
 
-
+ 
 function App() {
 	return (
 		<div className="App">
@@ -17,7 +16,7 @@ function App() {
 				<Container>
 					<Row>
 						<Col sm={8}>
-              <h1 className="hey">Hey, </h1>
+              <h1 className="hey">Hey 👋</h1>
 							<h1 className="moving"><Transition /></h1>
 							<h1 className="still">I'm Rajan</h1>
 							<Subnav />
