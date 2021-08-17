@@ -15,18 +15,21 @@ function App() {
 			<header className="App-header">
 				<Container>
 					<Row>
-						<Col sm={8}>
+						<Col sm={12}>
               <h1 className="hey">Hey 👋</h1>
 							<h1 className="moving"><Transition /></h1>
 							<h1 className="still">I'm Rajan</h1>
 							<Subnav />
 						</Col>
-						<Col sm={4}>
-						
-						</Col>
 					</Row>
-					<h5>MANIFESTO</h5>
-					<p>words</p>
+					<Row>
+					<Col sm={7}>
+					<h5 className="manifesto">MANIFESTO</h5>
+					<p className="p-manifesto">Aloha! Welcome to my <a className="a">humble corner</a> of the internet.</p></Col>
+					<Col sm={5}>
+					<h5 className="manifesto">MANIFESTO</h5>
+					<p className="p-manifesto">Aloha! Welcome to my <a className="a">humble corner</a> of the internet.</p></Col>
+         </Row>
 				</Container>
 			</header>
 		</div>

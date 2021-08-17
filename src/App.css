@@ -9,14 +9,21 @@
     box-sizing: border-box;
 		  background-color: #282c34;
 }
- 
+ h5 {
+	 font-family: 'Fira Sans', sans-serif;
+	 font-weight: 600;
+ }
+ p {
+	 font-family: 'Fira Sans', sans-serif;
+	 font-weight: 200;
+ }
 @media (min-width: 1201px) {
 	.App {
-	    padding-left: 20%;
-		padding-right: 20%;
+	    padding-left: 26%;
+		padding-right: 26%;
 	}
 }
-
+ 
 @media (max-width: 1200px) {
 
 	.App {
@@ -82,5 +89,24 @@ Subnav {
 }
 
 p {
-	font-size: 30px;
+	font-size: 25px;
+}
+.manifesto {
+	margin-bottom: -10px;
+}
+.p-manifesto {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+    background-color: #c8deec22;
+		color: white;
+    padding: 0 .2em;
+    border-radius: 3px;
+		padding-top: -30px;
+}
+
+.a {
+	background-color: #59bfff6e;
 }

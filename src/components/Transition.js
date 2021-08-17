@@ -4,6 +4,8 @@ import ReactTextTransition, { presets } from "react-text-transition";
 
 const texts = ["Rajan", " innovative.", " a developer.", "an author.", "curious."];
 
+
+
 class Transition extends Component {
   state = {
     textIndex: 1,
