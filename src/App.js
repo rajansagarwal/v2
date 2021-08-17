@@ -8,7 +8,9 @@ import ReactTextTransition, { presets } from "react-text-transition";
 import Transition from './components/Transition';
 import Subnav from './components/Subnav';
 
- 
+ {/* NEVER IT IS BROKEN AND IM NOT TRYNA LOSE ALL THE CODE */}
+
+
 function App() {
 	return (
 		<div className="App">
@@ -25,10 +27,10 @@ function App() {
 					<Row>
 					<Col sm={7}>
 					<h5 className="manifesto">MANIFESTO</h5>
-					<p className="p-manifesto">Aloha! Welcome to my <a className="a">humble corner</a> of the internet.</p></Col>
+					<p className="p-manifesto">Aloha! Welcome to my <a className="a">humble corner</a> of the internet. of the internet.  of the internet.  of the internet. </p></Col>
 					<Col sm={5}>
 					<h5 className="manifesto">MANIFESTO</h5>
-					<p className="p-manifesto">Aloha! Welcome to my <a className="a">humble corner</a> of the internet.</p></Col>
+					<p className="p-manifesto">Aloha! Welcome to my <a className="a">humble corner</a> of the internet. of the internet.  of the internet.  of the internet. </p></Col>
          </Row>
 				</Container>
 			</header>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactTextTransition, { presets } from "react-text-transition";
 
 
-const texts = ["Rajan", " innovative.", " a developer.", "an author.", "curious."];
+const texts = ["curious.", " Rajan Agarwal", " a developer.", "an author.", "innovative."];
 
 
 
@@ -19,7 +19,7 @@ class Transition extends Component {
         textIndex: this.state.textIndex + 13,
         paragraphIndex: this.state.paragraphIndex + 1
       });
-    }, 3000);
+    }, 2750);
     setInterval(() => {
       this.setState({
         textFastIndex: this.state.textFastIndex + 1
