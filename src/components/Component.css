@@ -30,10 +30,14 @@ Subnav {
 	}
 
 	h1 {
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
 .transition {
 	padding: 0 !important;
+}
+
+.p-manifesto {
+	line-height: 150%;
 }
