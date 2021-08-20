@@ -5,16 +5,14 @@
 	margin: auto;
 	font-family: 'Fira Sans', sans-serif;
 	align-items: center;
-
+	overflow-x: hidden !important;
     box-sizing: border-box;
 		  background-color: #1a1b22;
 }
  h5 {
-	 font-family: 'Fira Sans', sans-serif;
 	 font-weight: 600;
  }
  p {
-	 font-family: 'Fira Sans', sans-serif;
 	 font-weight: 200;
  }
 @media (min-width: 1201px) {
@@ -33,6 +31,8 @@
 	.break {
 	display: none;
 }
+.App {
+overflow-x: hidden !important;}
 
 .p-manifesto {
 	font-size: 17px !important;
@@ -40,6 +40,7 @@
 h5 {
 	font-size: 23px;
 }
+
 }
 
 .moving {
@@ -70,7 +71,6 @@ h5 {
 .App-header {
 
   min-height: 100vh;
-  flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
 	align-items: left;
@@ -78,15 +78,6 @@ h5 {
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .hey {
@@ -138,4 +129,41 @@ Forcegraph {
 	padding-right: 40% !important;
 	align-items: center !important;
 	text-align: center;
+}
+
+.accent1 {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  width: 600px;
+	margin: 0;
+}
+.accent2 {
+  z-index: 0;
+  position: absolute;
+  width: 500px;
+  right: 0;
+}
+
+@keyframes example {
+  from {left: -20px}
+  to {left: 20px;}
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1b22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+	transition: 2s ease;
 }

@@ -7,12 +7,18 @@ import Manifesto from './components/Manifesto';
 import Highlights from './components/Highlights';
 import Forcegraph from './components/ForceGraph';
 
+const responseGoogle = (response) => {
+  console.log(response);
+} 
 
 function App() {
 	return (
 		<div className="App">
+		<img src="/accent1.svg" className="accent1"></img>
+        <img src="/accent2.svg" className="accent2"></img>
 			<header className="App-header">
 				<Container>
+				
 					<Row>
 						<Col sm={12}>
 						 <div className="break">
@@ -33,11 +39,12 @@ function App() {
 					</Col>
          </Row>
 				 <Row>
-					<Col sm={8}>
+					<Col sm={12}>
 					<h3 className="manifesto">Where You'll Find Me</h3>
+					<Manifesto />
 					</Col>
-					<Col sm={4}>
-					<Highlights />
+					<Col sm={12}>
+					<Manifesto />
 					</Col>
          </Row>
 				 
