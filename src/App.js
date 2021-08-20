@@ -5,17 +5,13 @@ import Transition from './components/Transition';
 import Subnav from './components/Subnav';
 import Manifesto from './components/Manifesto';
 import Highlights from './components/Highlights';
-import Forcegraph from './components/ForceGraph';
 
-const responseGoogle = (response) => {
-  console.log(response);
-} 
 
 function App() {
 	return (
 		<div className="App">
-		<img src="/accent1.svg" className="accent1"></img>
-        <img src="/accent2.svg" className="accent2"></img>
+		<img src="/accent1.svg" className="accent1" alt="blob-blue"></img>
+        <img src="/accent2.svg" className="accent2" alt="blob-yellow"></img>
 			<header className="App-header">
 				<Container>
 				

@@ -6,7 +6,7 @@ class Subnav extends Component {
     return (
      
      <div className="subnavigation">
-		  <span className="highlight"><a href="#">/explore</a>{'     '}{'     '}</span><a href="#">/ventures</a>{'       '}<a href="#">/posts</a>{'     '}<a href="#">/prev</a>
+		  <span className="highlight"><a href="https://rajan.rajnagrwl.repl.co/">/explore</a>{'     '}{'     '}</span><a href="https://rajan.rajnagrwl.repl.co/">/ventures</a>{'       '}<a href="https://rajan.rajnagrwl.repl.co/">/posts</a>{'     '}<a href="https://rajan.rajnagrwl.repl.co/">/prev</a>
 		 </div>
     );
   }
