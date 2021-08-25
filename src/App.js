@@ -13,11 +13,13 @@ import Upcoming from './components/Upcoming';
 function App() {
 	return (
 		<div className="App">
-			<img src="/accent1.svg" className="accent1" alt="blob-blue" style={{opacity: '120%'}}></img>
+
+							<img src="/accent1.svg" className="accent1" alt="blob-blue"></img>
         <img src="/accent2.svg" className="accent2" alt="blob-yellow"></img>
-			<header className="App-header">
 				<Container>
-				
+				<header className="App-header">
+
+
 		
 					<Row>
 						<Col sm={12}>
@@ -52,9 +54,9 @@ function App() {
 					</Col>
          </Row> 
 				 
-				</Container>
+				
 			</header>
-			
+			</Container>
 		</div>
 	);
 }
