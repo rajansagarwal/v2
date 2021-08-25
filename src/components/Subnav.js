@@ -1,17 +1,20 @@
 import React, { Component } from "react";
 import "./Component.css";
+import {
+  Link
+} from "react-router-dom";
 
 class Subnav extends Component {
   render() {
     return (
       <div className="subnavigation">
-        <a href="https://rajan.rajnagrwl.repl.co/">/home</a>
+        <Link to="/">/home</Link>
         {"     "}
-        <a href="https://rajan.rajnagrwl.repl.co/">/explore</a>
+        <Link to="/explore">/explore</Link>
         {"      "}
-        <a href="https://rajan.rajnagrwl.repl.co/">/ventures</a>
+        <Link to="/ventures">/ventures</Link>
         {"     "}
-        <a href="https://rajan.rajnagrwl.repl.co/">/prev</a>
+        <Link to="/prev">/prev</Link>
       </div>
     );
   }

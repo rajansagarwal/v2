@@ -121,7 +121,7 @@ p {
 	font-size: 20px;
 }
 
-a {
+a, Link {
 	text-decoration: none;
     background-color: #c8deec22;
 		color: white;
