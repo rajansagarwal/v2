@@ -246,19 +246,19 @@ animation-timing-function: ease;
 }
 
 .upcominganimation {
-	  animation: easeincontent ease 11s;
+	  animation: easeinheader ease 11s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .accent1 {
-	  animation: easeincontent ease 3s;
+	  animation: easeinheader ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .accent2 {
-	  animation: easeincontent ease 4s;
+		animation: easeinheader ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
