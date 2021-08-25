@@ -250,3 +250,15 @@ animation-timing-function: ease;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
+.accent1 {
+	  animation: easeincontent ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.accent2 {
+	  animation: easeincontent ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
