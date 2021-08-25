@@ -41,3 +41,14 @@ Subnav {
 .p-manifesto {
 	line-height: 150%;
 }
+
+.cards {
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 0px;
+	text-align: center;
+}
+
+.hackclub {
+	background-image: url("https://replit.com/@rajnagrwl/rajan#public/hackclub.png");
+}

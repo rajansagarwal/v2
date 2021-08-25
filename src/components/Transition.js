@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactTextTransition, { presets } from "react-text-transition";
 
 
-const texts = ["an author.", " Rajan Agarwal", "innovative.", "curious.", "an activist.", "a developer."];
+const texts = ["an author.", " Rajan Agarwal", "innovative.", "curious.", "a hacker.", "a developer.", "an activist."];
 
 
 

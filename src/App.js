@@ -5,16 +5,18 @@ import Transition from './components/Transition';
 import Subnav from './components/Subnav';
 import Manifesto from './components/Manifesto';
 import Highlights from './components/Highlights';
+import Cards from './components/Cards';
 
 
 function App() {
 	return (
 		<div className="App">
-		<img src="/accent1.svg" className="accent1" alt="blob-blue"></img>
+			<img src="/accent1.svg" className="accent1" alt="blob-blue" style={{opacity: '120%'}}></img>
         <img src="/accent2.svg" className="accent2" alt="blob-yellow"></img>
 			<header className="App-header">
 				<Container>
 				
+		
 					<Row>
 						<Col sm={12}>
 						 <div className="break">
@@ -34,15 +36,13 @@ function App() {
           <Highlights />
 					</Col>
          </Row>
+				 <h3 className="manifesto">Where You'll Find Me</h3>
+				 <p>A refined collection of the places I love the most.</p>
 				 <Row>
 					<Col sm={12}>
-					<h3 className="manifesto">Where You'll Find Me</h3>
-					<Manifesto />
+					
 					</Col>
-					<Col sm={12}>
-					<Manifesto />
-					</Col>
-         </Row>
+         </Row> 
 				 
 				</Container>
 			</header>

@@ -6,7 +6,17 @@ class Highlights extends Component {
     return (
      <div>
      <h5 className="manifesto">HIGHLIGHTS</h5>
-					<p className="p-manifesto">um</p>
+					<p className="p-manifesto">
+					<b><a>CoreX - Supercharging Small Businesses to Success</a></b><br />
+					<i>August 21, 2021</i> • Another weekend, another hackathon<br /><br />
+					<b><a>The Official Release of my Personal Website</a></b><br />
+					<i>August 29, 2021</i> • Rajan Agarwal in a few lines of code.<br /><br />
+					<b><a>My First Talk</a></b><br />
+					<i>August 28, 2021</i> • Living Life @staywokeevent<br /><br />
+
+					<b><a>The #cult-of-rajan is growing</a></b><br />
+					<i>August 23, 2021</i> • My special Hack Club creation<br /><br />
+					</p>
 		 </div>
     );
   }

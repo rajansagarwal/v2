@@ -6,6 +6,7 @@
 	font-family: 'Fira Sans', sans-serif;
 	align-items: center;
 	overflow-x: hidden !important;
+	max-width: 100% !important;
     box-sizing: border-box;
 		  background-color: #1a1b22;
 }
@@ -17,8 +18,11 @@
  }
 @media (min-width: 1201px) {
 	.App {
-	    padding-left: 20%;
-		padding-right: 20%;
+	    padding-left: 0%;
+		padding-right: 0%;
+		padding-bottom: 0%;
+		padding-top: 0%;
+
 	}
 }
 
@@ -93,7 +97,7 @@ p {
 	font-size: 25px;
 }
 .manifesto {
-	margin-bottom: -10px;
+	margin-bottom: 0px;
 }
 .p-manifesto {
 	font-size: 20px;
@@ -166,4 +170,13 @@ Forcegraph {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 	transition: 2s ease;
+}
+
+.streamlit {
+	height: 1600px !important;
+    position: absolute;
+    left: 0;
+		margin: 0 !important;
+		padding: 0 !important;
+    overflow: hidden;
 }
