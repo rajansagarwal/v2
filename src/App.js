@@ -41,6 +41,11 @@ function App() {
 					<Col sm={12}>
 					
 					</Col>
+
+					<Col sm={12}>
+					<Manifesto />
+					</Col>
+
          </Row> 
 				 
 				</Container>
