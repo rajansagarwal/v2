@@ -6,7 +6,7 @@ class Upcoming extends Component {
     return (
       <div>
         <h5 className="manifesto">WHAT'S NEXT</h5>
-        <p className="p-manifesto refined">A few upcoming initiatives</p>
+        <p className="p-manifesto refined">A few upcoming initiatives in the queue</p>
         <p className="p-manifesto">
           <a href="https://www.hackclub.com/slack">
             <b>Remote Public Health Internship</b>
