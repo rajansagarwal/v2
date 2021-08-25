@@ -113,7 +113,7 @@ a {
 	text-decoration: none;
     background-color: #c8deec22;
 		color: white;
-    padding: 0 .3em;
+    padding: 0 .3em !important;
     border-radius: 3px;
 		padding-top: -30px;
 }
