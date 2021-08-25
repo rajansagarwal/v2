@@ -10,7 +10,7 @@ class Manifesto extends Component {
 				<p className="p-manifesto">Time is flying, which is why I spend my time with some of the most interesting and innovative people out there. These people are going to build the future we live on, and I'm honoured to work with them on a daily basis. You'll often find me ranting on Hack Club, starting new initiatives on Instagram or writing my occasional thoughts right here. </p>
 				<p className="p-manifesto">Now its time to make your move. Email me or check me out on Twitter, Instagram and Github.</p>
 				<p className="p-manifesto">Yours Truly,<br/>Rajan Agarwal</p>*/}
-				<p className="p-manifesto">[redacted]</p>
+				<p className="p-manifesto">[redacted until official release]</p>
 			</div>
 		);
 	}
