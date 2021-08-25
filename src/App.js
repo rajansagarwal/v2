@@ -5,6 +5,9 @@ import Transition from './components/Transition';
 import Subnav from './components/Subnav';
 import Manifesto from './components/Manifesto';
 import Highlights from './components/Highlights';
+import Socials from './components/Socials';
+import Upcoming from './components/Upcoming';
+
 
 
 function App() {
@@ -28,28 +31,30 @@ function App() {
 						</Col>
 					</Row>
 					<Row>
-					<Col sm={8}>
+					<Col sm={7.5}>
 					<Manifesto />
 					</Col>
-					<Col sm={4}>
+					<Col sm={4.5}>
           <Highlights />
 					</Col>
          </Row>
-				 <h3 className="manifesto">Where You'll Find Me</h3>
-				 <p>A refined collection of the places I love the most.</p>
+				 
+				 
 				 <Row>
-					<Col sm={12}>
-					
+					<Col sm={7}>
+					<Socials />
 					</Col>
+					<Col sm={0.5}>
 
-					<Col sm={12}>
-					<Manifesto />
 					</Col>
-
+<Col sm={4.5}>
+<Upcoming />
+					</Col>
          </Row> 
 				 
 				</Container>
 			</header>
+			
 		</div>
 	);
 }

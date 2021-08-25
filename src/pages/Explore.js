@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import './Component.css';
 
-class Highlights extends Component {
+class Explore extends Component {
   render() {
     return (
      <div>
      <h5 className="manifesto">HIGHLIGHTS</h5>
 					<p className="p-manifesto">
-					<b><a href="https://www.google.com">CoreX - Supercharging Small Businesses</a></b><br />
+					<b><a href="https://www.google.com">CoreX - Supercharging Small Businesses to Success</a></b><br />
 					<i>August 25</i> • Another weekend, another hackathon W<br /><br />
 					<b><a href="https://www.google.com">Houston, We are approaching 160km</a></b><br />
 					<i>August 25</i> • My #runforhope is nearing the finish line<br /><br />
@@ -21,4 +21,4 @@ class Highlights extends Component {
   }
 }
 
-export default Highlights;
+export default Explore;

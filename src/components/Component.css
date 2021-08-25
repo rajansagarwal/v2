@@ -19,14 +19,14 @@ Subnav {
 
 @media (min-width: 601px) {
 	.subnavigation {
-	font-size: 26px;
+	font-size: 24px;
 	}
 }
 
 @media (max-width: 600px) {
 
 	.subnavigation {
-	font-size: 15px;
+	font-size: 18px;
 	}
 
 	h1 {
@@ -40,4 +40,18 @@ Subnav {
 
 .p-manifesto {
 	line-height: 150%; 
+}
+
+.refined {
+	margin-top: 3px;
+}
+
+
+.signiature {
+	font-family: 'Allura', cursive;
+	font-size: 30px;
+}
+
+.yourstruly {
+	margin-bottom: 150px !important;
 }

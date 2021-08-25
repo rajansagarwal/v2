@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 .App {
   text-align: left;
 	margin: auto;
 	font-family: 'Fira Sans', sans-serif;
 	align-items: center;
-	overflow-x: hidden !important;
+	overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 	max-width: 100% !important;
-    box-sizing: border-box;
 		  background-color: #1a1b22;
 }
+
+
  h5 {
 	 font-weight: 600;
  }
