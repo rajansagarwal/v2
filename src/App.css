@@ -31,6 +31,17 @@ html, body {
 		padding-top: 0%;
 
 	}
+	.accent1 {
+	  animation: easeinheader ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.accent2 {
+		animation: easeinheader ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 }
 
 @media (max-width: 1200px) {
@@ -209,6 +220,7 @@ animation-timing-function: ease;
 }
 
 
+
 .hey {
     animation: easein ease 1s;
     animation-iteration-count: 1;
@@ -234,31 +246,20 @@ animation-timing-function: ease;
 }
 
 .highlightsanimation {
-	  animation: easeincontent ease 7s;
+	  animation: easeincontent ease 6.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .socialsanimation {
-	  animation: easeincontent ease 9s;
+	  animation: easeincontent ease 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .upcominganimation {
-	  animation: easeinheader ease 11s;
+	  animation: easeincontent ease 9.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.accent1 {
-	  animation: easeinheader ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.accent2 {
-		animation: easeinheader ease 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
