@@ -7,9 +7,8 @@ class Subnav extends Component {
       <div className="subnavigation">
         <a href="https://rajan.rajnagrwl.repl.co/">/home</a>
         {"     "}
-        {"     "}
         <a href="https://rajan.rajnagrwl.repl.co/">/explore</a>
-        {"       "}
+        {"      "}
         <a href="https://rajan.rajnagrwl.repl.co/">/ventures</a>
         {"     "}
         <a href="https://rajan.rajnagrwl.repl.co/">/prev</a>
