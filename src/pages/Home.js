@@ -1,17 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import "./App.css";
-import Transition from "./components/Transition";
-import Subnav from "./components/Subnav";
-import Manifesto from "./components/Manifesto";
-import Highlights from "./components/Highlights";
-import Socials from "./components/Socials";
-import Upcoming from "./components/Upcoming";
+import "../App.css";
+import Transition from "../components/Transition";
+import Subnav from "../components/Subnav";
+import Manifesto from "../components/Manifesto";
+import Highlights from "../components/Highlights";
+import Socials from "../components/Socials";
+import Upcoming from "../components/Upcoming";
 
-
-function App() {
-  return (
-    <div className="App">
+export default function Home() {
+    return (
+          <div className="App">
       <img src="/accent1.svg" className="accent1" alt="blob-blue"></img>
       <img src="/accent2.svg" className="accent2" alt="blob-yellow"></img>
 
@@ -59,9 +58,6 @@ function App() {
           </Row>
         </header>
       </Container>
-
     </div>
-  );
+    );
 }
-
-export default App;

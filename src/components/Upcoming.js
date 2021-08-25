@@ -25,10 +25,9 @@ class Upcoming extends Component {
           <br />
           <a href="https://www.hackclub.com/slack">
             <b>Uprise </b>
-            <i>• A startup like none other</i>
           </a>{" "}
           <br />
-          I'm building Uprise, a platform that gives a voice to youth.
+          <i>A startup like none other</i> • I'm building Uprise, a platform that gives a voice to youth.
           <br />
           <br />
           <a href="https://www.hackclub.com/slack">

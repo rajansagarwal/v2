@@ -1,24 +1,17 @@
-import React, { Component } from "react";
-import './Component.css';
+import React from "react";
+import { Container, Row, Col } from "react-grid-system";
+import "../App.css";
+import Transition from "../components/Transition";
+import Subnav from "../components/Subnav";
+import Manifesto from "../components/Manifesto";
+import Highlights from "../components/Highlights";
+import Socials from "../components/Socials";
+import Upcoming from "../components/Upcoming";
 
-class Explore extends Component {
-  render() {
+export default function Explore() {
     return (
-     <div>
-     <h5 className="manifesto">HIGHLIGHTS</h5>
-					<p className="p-manifesto">
-					<b><a href="https://www.google.com">CoreX - Supercharging Small Businesses to Success</a></b><br />
-					<i>August 25</i> • Another weekend, another hackathon W<br /><br />
-					<b><a href="https://www.google.com">Houston, We are approaching 160km</a></b><br />
-					<i>August 25</i> • My #runforhope is nearing the finish line<br /><br />
-					<a href="https://www.google.com"><b>My First Talk</b> @staywokeevent<br /></a>
-					<i>August 25</i> • My very first talk ~ Living Life<br /><br />
-					<b><a href="https://www.google.com">The Release of my Personal Website</a></b><br />
-					<i>August 25</i> • Rajan in a few lines of code.<br /><br />
-					</p>
-		 </div>
+          <div className="App">
+      <p>hi</p>
+    </div>
     );
-  }
 }
-
-export default Explore;
