@@ -5,7 +5,6 @@ import Transition from './components/Transition';
 import Subnav from './components/Subnav';
 import Manifesto from './components/Manifesto';
 import Highlights from './components/Highlights';
-import Cards from './components/Cards';
 
 
 function App() {
