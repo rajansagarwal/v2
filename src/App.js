@@ -21,6 +21,7 @@ function App() {
               <div className="break">
                 <br />
               </div>
+							<div className="mainheader">
               <h1 className="hey">
                 Hey{" "}
                 <span role="img" aria-label="emoji">
@@ -31,24 +32,27 @@ function App() {
                 <Transition />
               </h1>
               <h1 className="still">I'm Rajan</h1>
+							<div  className="subnav">
               <Subnav />
+							</div>
+							</div>
             </Col>
           </Row>
           <Row>
-            <Col sm={7.5}>
+            <Col sm={7.5} className="manifestoanimation">
               <Manifesto />
             </Col>
-            <Col sm={4.5}>
+            <Col sm={4.5} className="highlightsanimation">
               <Highlights />
             </Col>
           </Row>
 
           <Row>
-            <Col sm={7}>
+            <Col sm={7} className="socialsanimation">
               <Socials />
             </Col>
             <Col sm={0.5}></Col>
-            <Col sm={4.5}>
+            <Col sm={4.5} className="upcominganimation">
               <Upcoming />
             </Col>
           </Row>

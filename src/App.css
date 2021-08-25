@@ -16,13 +16,13 @@ html, body {
 
 }
 
-
  h5 {
 	 font-weight: 600;
  }
  p {
 	 font-weight: 200;
  }
+
 @media (min-width: 1201px) {
 	.App {
 	    padding-left: 0 !important;
@@ -176,3 +176,77 @@ animation-timing-function: ease;
     overflow: hidden;
 }
 
+@keyframes easein {
+	  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes easeinheader {
+	  0% {
+			opacity: 0;
+		}
+		30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes easeincontent {
+	  0% {
+			opacity: 0;
+		}
+		50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.hey {
+    animation: easein ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.moving {
+    animation: easeinheader 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.subnav {
+    animation: easeinheader 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.manifestoanimation {
+	  animation: easeincontent ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.highlightsanimation {
+	  animation: easeincontent ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.socialsanimation {
+	  animation: easeincontent ease 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.upcominganimation {
+	  animation: easeincontent ease 11s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
