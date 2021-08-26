@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import "./Component.css";
+import {
+  Link
+} from "react-router-dom";
+
 
 class Upcoming extends Component {
   render() {
@@ -8,29 +12,29 @@ class Upcoming extends Component {
         <h5 className="manifesto">WHAT'S NEXT</h5>
         <p className="p-manifesto refined">A few upcoming initiatives in the queue</p>
         <p className="p-manifesto">
-          <a href="https://www.hackclub.com/slack">
+          <Link to="/prev">
             <b>Remote Public Health Internship</b>
-          </a>{" "}
+          </Link>{" "}
           <br />
           Raising Awareness about Public Health and Equity in Nigeria
           <br />
           <br />
-          <a href="https://www.hackclub.com/slack">
+          <Link to="/">
             <b>Upside Down</b>
-          </a>
+          </Link>
           <br />
           <i>Not Your Typical Podcast</i> • Digestible and Relevant Content
           about Social Issues
           <br />
           <br />
-          <a href="https://www.hackclub.com/slack">
+          <Link to="/">
             <b>Uprise </b>
-          </a>{" "}
+          </Link>{" "}
           <br />
           <i>A startup like none other</i> • I'm building Uprise, a platform that gives a voice to youth.
           <br />
           <br />
-          <a href="https://www.hackclub.com/slack">
+          <a href="https://www.instagram.com/_mindson">
             <b>Minds On </b>
           </a>{" "}
           <br />
