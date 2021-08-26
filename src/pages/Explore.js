@@ -3,10 +3,8 @@ import { Container, Row, Col } from "react-grid-system";
 import "../App.css";
 import "../components/Component.css";
 import Subnav from '../components/Subnav';
-import Manifesto from "../components/Manifesto";
-import Highlights from "../components/Highlights";
-import Socials from "../components/Socials";
-import Upcoming from "../components/Upcoming";
+import Explorehead from '../components/Explorehead';
+import Explorelinks from '../components/Explorelinks';
 
 export default function Explore() {
     return (
@@ -16,27 +14,16 @@ export default function Explore() {
 
       <Container>
         <header className="App-header">
+				<br />
           <Row>
             <Col sm={12}>
+							<Explorehead/>
+            </Col>
+          </Row>
+           <Row>
+            <Col sm={12}>
               <Subnav />
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={7.5} className="manifestoanimation">
-              <Manifesto />
-            </Col>
-            <Col sm={4.5} className="highlightsanimation">
-              <Highlights />
-            </Col>
-          </Row>
-
-          <Row>
-            <Col sm={7} className="socialsanimation">
-              <Socials />
-            </Col>
-            <Col sm={0.5}></Col>
-            <Col sm={4.5} className="upcominganimation">
-              <Upcoming />
+							<Explorelinks/>
             </Col>
           </Row>
         </header>

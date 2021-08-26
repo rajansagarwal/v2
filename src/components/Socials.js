@@ -38,7 +38,7 @@ class Socials extends Component {
           <br />
           <br />
           <Link to="/explore">
-            <b>Wellness </b>~ Our Minds Make Up Who We are
+            <b>Wellness </b>~ Mental Maintenance
           </Link>{" "}
           <br />
           <i>Being One with my Surroundings</i> • As a large advocate for mental

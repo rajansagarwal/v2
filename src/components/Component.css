@@ -55,3 +55,21 @@ Subnav {
 .yourstruly {
 	margin-bottom: 150px !important;
 }
+
+.explorehead {
+	text-align: center;
+}
+@media (max-width: 1200px) {
+	.explorehead {
+		text-align: left;
+	}
+}
+.p-explore {
+	margin-bottom: 4px;
+	font-size: 30px;
+}
+
+.linkheader {
+	font-size: 40px;
+	margin-top: 50px;
+}

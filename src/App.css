@@ -47,8 +47,8 @@ html, body {
 @media (max-width: 1200px) {
 
 	.App {
-	    padding-left: 5%;
-		padding-right: 5%;
+	    padding-left: 3%;
+		padding-right: 3%;
 	}
 	.break {
 	display: none;
@@ -222,7 +222,7 @@ animation-timing-function: ease;
 
 
 .hey {
-    animation: easein ease 1s;
+    animation: easein ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -246,19 +246,19 @@ animation-timing-function: ease;
 }
 
 .highlightsanimation {
-	  animation: easeincontent ease 6.5s;
+	  animation: easeincontent ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .socialsanimation {
-	  animation: easeincontent ease 8s;
+	  animation: easeincontent ease 7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .upcominganimation {
-	  animation: easeincontent ease 9.5s;
+	  animation: easeincontent ease 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }

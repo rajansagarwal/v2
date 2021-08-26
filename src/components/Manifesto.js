@@ -14,7 +14,7 @@ class Manifesto extends Component {
           driven by innovation. In your exploration of my digital persona, it
           hope that you develop a profound understanding of my world, built on
           the foundation of creation and change. Here, you will find my
-          favourite experiences, writings projects and initiatives.
+          favourite initiatives, writings, experiences.
         </p>
         <p className="p-manifesto">
           Time is flying, which is why I spend my time with some of the most
