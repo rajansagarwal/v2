@@ -5,7 +5,7 @@
 .subnavigation {
 	text-align: left; display: inline-block;
 
-	padding-top: -100px !important;
+	padding-top: -100px;
 }
 
 h1 {
@@ -34,6 +34,10 @@ Subnav {
 	}
 }
 
+.a {
+		background-color: linear-gradient(#e66465, #9198e5) !important; 
+}
+
 .transition {
 	padding: 0 !important;
 }
@@ -58,18 +62,29 @@ Subnav {
 
 .explorehead {
 	text-align: center;
+	font-size: 50px;
 }
 @media (max-width: 1200px) {
 	.explorehead {
 		text-align: left;
 	}
+	.explorehead {
+		font-size: 40px;
+	}
 }
+
 .p-explore {
 	margin-bottom: 4px;
 	font-size: 30px;
 }
 
 .linkheader {
-	font-size: 40px;
+	font-size: 30px;
 	margin-top: 50px;
 }
+
+.explorelinks {
+	padding-left: 0 !important;
+	margin-left: 0% !important;
+}
+

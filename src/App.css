@@ -23,6 +23,7 @@ html, body {
 	 font-weight: 200;
  }
 
+
 @media (min-width: 1201px) {
 	.App {
 	    padding-left: 0 !important;
@@ -52,6 +53,10 @@ html, body {
 	}
 	.break {
 	display: none;
+}
+.exploree {
+	margin-left: -3.5% !important;
+	margin-right: -3.5% !important;;
 }
 .App {
 overflow-x: hidden !important;}
@@ -130,6 +135,7 @@ a, Link {
 		padding-top: -30px;
 }
 
+
 a:hover{
 	background-color: #59bfff6e;
 transition: all 0.3s ease;
@@ -139,7 +145,7 @@ animation-timing-function: ease;
 
 
 .a {
-	background-color: #59bfff6e;
+	background-color: linear-gradient(45deg, blue, red);
 }
 .accent1 {
   z-index: 0;
@@ -233,33 +239,62 @@ animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
 
-.subnav {
+.pre {
     animation: easeinheader 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+.animate0 {
+	  animation: easeincontent ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
-.manifestoanimation {
+.animate1 {
 	  animation: easeincontent ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.highlightsanimation {
+.animate2 {
 	  animation: easeincontent ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.socialsanimation {
+.animate3 {
 	  animation: easeincontent ease 7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-.upcominganimation {
+.animate4 {
 	  animation: easeincontent ease 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
+
+.animate5 {
+	  animation: easeincontent ease 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.animate6 {
+	  animation: easeincontent ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+Explore {
+		padding: 0 !important;
+}
+
+.underline {
+		background-color: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+}

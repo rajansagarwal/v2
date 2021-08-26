@@ -2,26 +2,26 @@ import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import "../App.css";
 import "../components/Component.css";
-import Explorehead from '../components/Explorehead';
-import Explorelinks from '../components/Explorelinks';
+import Ventureshead from '../components/Ventureshead';
+import Venture from '../components/Venture';
 
-export default function Explore() {
+export default function Ventures() {
     return (
      <div className="App">
-      <img src="/accent3.svg" className="accent1" alt="blob-blue"></img>
-      <img src="/accent4.svg" className="accent2" alt="blob-yellow"></img>
+      <img src="/accent5.svg" className="accent1" alt="blob-blue"></img>
+      <img src="/accent6.svg" className="accent2" alt="blob-yellow"></img>
 
       <Container>
         <header className="App-header">
 				<br />
           <Row>
             <Col sm={12}>
-							<Explorehead/>
+						<Ventureshead />
             </Col>
           </Row>
            <Row>
             <Col sm={12}>
-							<Explorelinks/>
+						<Venture />
             </Col>
           </Row>
         </header>

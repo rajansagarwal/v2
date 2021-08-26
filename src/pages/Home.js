@@ -32,27 +32,27 @@ export default function Home() {
                 <Transition />
               </h1>
               <h1 className="still">I'm Rajan</h1>
-							<div  className="subnav">
+							<div  className="subnav pre">
               <Subnav />
 							</div>
 							</div>
             </Col>
           </Row>
           <Row>
-            <Col sm={7.5} className="manifestoanimation">
+            <Col sm={7.5} className="animate1">
               <Manifesto />
             </Col>
-            <Col sm={4.5} className="highlightsanimation">
+            <Col sm={4.5} className="animate2">
               <Highlights />
             </Col>
           </Row>
 
           <Row>
-            <Col sm={7} className="socialsanimation">
+            <Col sm={7} className="animate3">
               <Socials />
             </Col>
             <Col sm={0.5}></Col>
-            <Col sm={4.5} className="upcominganimation">
+            <Col sm={4.5} className="animate4">
               <Upcoming />
             </Col>
           </Row>

@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Home from './pages/Home';
 import Explore from './pages/Explore';
+import Ventures from './pages/Ventures';
+import Prev from './pages/Prev';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -16,10 +18,10 @@ function App() {
         <Explore/>
       </Route>
       <Route exact path="/ventures">
-        <Home/>
+        <Ventures/>
       </Route>
       <Route exact path="/prev">
-        <Home/>
+        <Prev/>
       </Route>
     </div>
     </Router>
