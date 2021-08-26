@@ -39,7 +39,7 @@ class Venture extends Component {
              
 							<br/><br/>
 							<b>
-                  <a href="https://www.hackclub.com/slack">
+                  <a href="https://www.heyrajan.com">
                     Interactive Digital Novel Coming Soon
                   </a>
                 </b>
@@ -58,7 +58,7 @@ class Venture extends Component {
               <p className="p-manifesto">
                 To put it lightly, I have an unhealthy addiction to hackathons-blasting music until 2am, working to win big prizes and learning how tech can make physical impact has inspired myself and several of my peers. Hack Club, a community for youth programmers, has developed a tightly-knit group of student leaders who are passionate about change, and I am honoured to be working with them. I've placed in 3 hackathons, and have won several other awards that reflect on the hard work and effort our team puts towards our solutions.
 								<b><br/><br/>
-                  <a href="https://www.devpost.com/itsrajan">
+                  <a href="https://www.d.heyrajan.com">
                     View A Few Projects.
                   </a>
                 </b>

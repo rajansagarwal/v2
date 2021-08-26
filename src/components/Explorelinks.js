@@ -49,7 +49,7 @@ class Explorelinks extends Component {
               <h5 className="manifesto linkheader">SOCIALS</h5>
               <p className="p-manifesto">
                 <b>
-                  <a href="gh.heyrajan.com">
+                  <a href="g.heyrajan.com">
                     Github
                   </a>
                 </b>
@@ -72,7 +72,7 @@ class Explorelinks extends Component {
                 </a>
                 Dog photos, Running updates and Perks!
 								<br /><br />
-								<a href="https://www.tw.heyrajan.com">
+								<a href="https://www.t.heyrajan.com">
                   <b>Twitter</b>
                   <br />
                 </a>
@@ -129,7 +129,7 @@ class Explorelinks extends Component {
                 Build Updates directly from Hack Club<br />
                 <br />
                 <b>
-                  <a href="https://www.devpost.com/itsrajan">
+                  <a href="https://www.d.heyrajan.com">
                     Devpost
                   </a>
                 </b>
@@ -137,7 +137,7 @@ class Explorelinks extends Component {
                 A collection of hackathon projects
                 <br />
                 <br />
-                <a href="https://www.instagram.com/staywokeevent">
+                <a href="https://www.heyrajan.com">
                   <b>Breaking Barriers</b>
                   <br />
                 </a>

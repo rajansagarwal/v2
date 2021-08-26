@@ -27,9 +27,9 @@ class Manifesto extends Component {
         <p className="p-manifesto">
           Now its time to make your move.{" "}
           <a href="mailto:rajan.ag005@gmail.com">Email me</a> or poke me on{" "}
-          <a href="https://www.twitter.com/itsrajan05">Twitter</a>,{" "}
-          <a href="https://www.instagram.com/rajanwastaken">Instagram</a> and{" "}
-          <a href="https://www.linkedin.com/in/itsrajan05">Linkedin.</a>
+          <a href="https://www.t.heyrajan.com">Twitter</a>,{" "}
+          <a href="https://www.ig.heyrajan.com">Instagram</a> and{" "}
+          <a href="https://www.in.heyrajan.com">Linkedin.</a>
         </p>
         <p className="p-manifesto">
           <span className="yourstruly">Yours Truly,</span>
