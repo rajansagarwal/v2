@@ -7,8 +7,8 @@ import Subnav from '../components/Subnav';
 export default function Prev() {
     return (
      <div className="App">
-      <img src="/accent3.svg" className="accent1" alt="blob-blue"></img>
-      <img src="/accent4.svg" className="accent2" alt="blob-yellow"></img>
+      <img src="/accent7.svg" className="accent1" alt="blob-blue"></img>
+      <img src="/accent8.svg" className="accent2" alt="blob-yellow"></img>
 
       <Container>
         <header className="App-header">
