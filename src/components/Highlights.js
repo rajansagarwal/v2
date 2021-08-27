@@ -16,7 +16,7 @@ class Highlights extends Component {
           <i>August 25</i> • Another weekend, another hackathon W<br />
           <br />
           <b>
-            <a href="https://www.runforhope.heyrajan.com">
+            <a href="https://www.heyrajan.com/ventures">
               Houston, We are approaching 160km
             </a>
           </b>

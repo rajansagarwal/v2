@@ -20,7 +20,7 @@ class Explorelinks extends Component {
                 Peddie Hacks Winner E-Commerce Hack<br />
                 <br />
                 <b>
-                  <a href="https://www.runforhope.heyrajan.com">
+                  <a href="https://www.heyrajan.com/ventures">
                     160km Run For Hope
                   </a>
                 </b>
@@ -66,13 +66,13 @@ class Explorelinks extends Component {
                 Find me in the #cult-of-rajan!
                 <br />
                 <br />
-                <a href="https://www.ig.heyrajan.com">
+                <a href="http://www.ig.heyrajan.com">
                   <b>Instagram</b>
                   <br />
                 </a>
                 Dog photos, Running updates and Perks!
 								<br /><br />
-								<a href="https://www.t.heyrajan.com">
+								<a href="http://www.t.heyrajan.com">
                   <b>Twitter</b>
                   <br />
                 </a>
@@ -99,7 +99,7 @@ class Explorelinks extends Component {
                 A simple, yet powerful portfolio
                 <br />
                 <br />
-                <a href="https://www.in.heyrajan.com">
+                <a href="http://www.in.heyrajan.com">
                   <b>Linkedin</b>
                   <br />
                 </a>
