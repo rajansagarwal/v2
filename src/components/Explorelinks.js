@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./Component.css";
 import { Container, Row, Col } from "react-grid-system";
+import {
+  Link
+} from "react-router-dom";
 
 class Explorelinks extends Component {
   render() {
@@ -28,10 +31,10 @@ class Explorelinks extends Component {
                 Running 160km for Residential School Graves
                 <br />
                 <br />
-                <a href="https://www.instagram.com/staywokeevent">
+                          <Link to="/staywoke">
                   <b>My First Talk</b> @staywokeevent
                   <br />
-                </a>
+                </Link>
                 My very first talk ~ Living Life
                 <br />
                 <br />

@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./Component.css";
+import {
+  Link
+} from "react-router-dom";
 
 class Highlights extends Component {
   render() {
@@ -24,10 +27,10 @@ class Highlights extends Component {
           <i>August 25</i> • My #runforhope is nearing the finish line
           <br />
           <br />
-          <a href="https://www.instagram.com/staywokeevent">
+          <Link to="/staywoke">
             <b>My First Talk</b> @staywokeevent
             <br />
-          </a>
+          </Link>
           <i>August 25</i> • My very first talk ~ Living Life
           <br />
           <br />

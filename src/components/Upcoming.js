@@ -12,9 +12,9 @@ class Upcoming extends Component {
         <h5 className="manifesto">WHAT'S NEXT</h5>
         <p className="p-manifesto refined">A few upcoming initiatives in the queue</p>
         <p className="p-manifesto">
-          <Link to="/prev">
+          <a href="https://www.globalgiving.org/projects/team21108/">
             <b>Remote Public Health Internship</b>
-          </Link>{" "}
+          </a>{" "}
           <br />
           Raising Awareness about Public Health and Equity in Nigeria
           <br />

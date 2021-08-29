@@ -23,6 +23,11 @@ html, body {
 	 font-weight: 200;
  }
 
+ .stickerwall {
+	 width: 300px;
+	 height: auto;
+ }
+
 
 @media (min-width: 1201px) {
 	.App {
@@ -47,7 +52,7 @@ html, body {
 
 @media (max-width: 1200px) {
 
-	.App {
+	.App-header {
 	    padding-left: 3%;
 		padding-right: 3%;
 	}
@@ -297,4 +302,9 @@ Explore {
 		background-color: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+}
+
+.nonee {
+	padding: 0 !important;
+	margin: 0 !important;
 }

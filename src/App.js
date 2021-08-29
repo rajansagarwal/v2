@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Explore from './pages/Explore';
 import Ventures from './pages/Ventures';
 import Prev from './pages/Prev';
+import Redirect from './pages/Redirect';
+import Staywoke from './pages/Staywoke';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -22,6 +24,9 @@ function App() {
       </Route>
       <Route exact path="/prev">
         <Prev/>
+      </Route>
+			<Route exact path="/staywoke">
+        <Staywoke/>
       </Route>
     </div>
     </Router>
