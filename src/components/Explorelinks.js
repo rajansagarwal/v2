@@ -23,7 +23,7 @@ class Explorelinks extends Component {
                 Peddie Hacks Winner E-Commerce Hack<br />
                 <br />
                 <b>
-                  <a href="https://www.heyrajan.com/ventures">
+                  <a href="https://run.heyrajan.com/">
                     160km Run For Hope
                   </a>
                 </b>
@@ -164,14 +164,14 @@ class Explorelinks extends Component {
                   </a>
                 </b>
                 <br />
-                3rd Place Overall
+                Best Crypto Hack
                 <br />
                 <br />
                 <a href="https://www.devpost.com/software/swiftmed">
                   <b>SwiftMed</b>
                   <br />
                 </a>
-                Best Crypto Hack
+                3rd Place Overall
               </p>
             </Col>
             <Col sm={4} className="animate5">

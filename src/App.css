@@ -16,6 +16,7 @@ html, body {
 
 }
 
+
  h5 {
 	 font-weight: 600;
  }
@@ -59,10 +60,7 @@ html, body {
 	.break {
 	display: none;
 }
-.exploree {
-	margin-left: -3.5% !important;
-	margin-right: -3.5% !important;;
-}
+
 .App {
 overflow-x: hidden !important;}
 
@@ -164,6 +162,14 @@ animation-timing-function: ease;
   position: absolute;
   width: 600px;
   right: 0;
+}
+.baseaccent {
+  z-index: 0;
+  position: fixed;
+  width: 600px;
+	bottom:0px;
+  left: 0;
+  max-width: 100vw;
 }
 
 @keyframes example {

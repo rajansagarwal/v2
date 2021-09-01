@@ -18,7 +18,7 @@ class Venture extends Component {
                 <br />
                 <br />
                 <b>
-                  <a href="https://www.hackclub.com/slack">
+                  <a href="http://run.heyrajan.com/">
                     Read More.
                   </a>
                 </b>
