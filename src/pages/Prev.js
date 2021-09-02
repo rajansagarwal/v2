@@ -9,7 +9,7 @@ export default function Prev() {
      <div className="App">
       <img src="/accent7.svg" className="accent1" alt="blob-blue"></img>
       <img src="/accent2.svg" className="accent2" alt="blob-yellow"></img>
-			<img src="/base.svg" className="baseaccent" alt="blob-base"></img>
+			<img src="/base3.svg" className="baseaccent" alt="blob-base"></img>
 
       <Container>
         <header className="App-header">

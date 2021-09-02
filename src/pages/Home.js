@@ -7,6 +7,7 @@ import Manifesto from "../components/Manifesto";
 import Highlights from "../components/Highlights";
 import Socials from "../components/Socials";
 import Upcoming from "../components/Upcoming";
+			
 
 export default function Home() {
     return (
