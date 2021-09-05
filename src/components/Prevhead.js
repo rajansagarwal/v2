@@ -6,7 +6,7 @@ class Prevhead extends Component {
   render() {
     return (
       <div>
-        <h2 className="ventureshead hey">This page is in production</h2>
+        <h2 className="ventureshead hey">Previous Work Experience</h2>
 				<div className="ventureshead moving"><Subnav /><br /></div>
       </div>
     );
