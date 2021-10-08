@@ -39,6 +39,7 @@ class Upcoming extends Component {
           La multiculturalisme est très important, et nous respectons les opinions de chaucun!
           <br />
           <br />
+					<img src="https://www.iucn.org/sites/dev/files/styles/850x500_no_menu_article/public/import/img/pk_sp_ziarat.jpg?itok=8YZi6pR-" width="100%" alt="solarpanels"/>
         </p>
       </div>
     );
