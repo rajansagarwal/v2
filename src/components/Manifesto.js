@@ -5,37 +5,16 @@ class Manifesto extends Component {
   render() {
     return (
       <div>
-        <h5 className="manifesto">MANIFESTO</h5>
+        <h5 className="manifesto">Bienvenue!</h5>
         <p className="p-manifesto">
-          I'm Rajan Agarwal, a 16 year old in Ontario{" "}
-          <span role="img" aria-label="canadaemoji">
-            🇨🇦
-          </span>{" "}
-          driven by innovation. In your exploration of my digital persona, it
-          hope that you develop a profound understanding of my world, built on
-          the foundation of creation and change. Here, you will find my
-          favourite initiatives, writings, experiences.
+          Notre ville est centrée sur une expérience inouïe, où vous pouvez explorer l’histoire de notre planète en apprenant complètement les pièces incroyables des célèbres en le 17eme siecle. Alors, nous sommes tres contents de partageons Inno, une ville qui donne la priorité à l'écologie, l’histoire de notre monde et une économie équilibré. 
         </p>
-        <p className="p-manifesto">
-          Time is flying, which is why I spend my time with some of the most
-          interesting and innovative people out there. These people are going to
-          build the future we live on, and I'm honoured to work with them on a
-          daily basis. You'll often find me ranting on{" "}
-          <a href="https://www.hackclub.com">Hack Club</a> Slack, starting new
-          initiatives on Instagram or writing my occasional thoughts right here.{" "}
+				<p className="p-manifesto">
+         En discutant avec ceux du Canada, saviez-vous que 50% des individus n'étaient pas satisfaits de leur gouvernement local? Contrairement aux États-Unis ou au Canada, nous aimons l'ingérence du public. Regardez cette carte, la mairie est au centre-ville, autour c'est la nature et puis les petits commerces et maisons.
         </p>
-        <p className="p-manifesto">
-          Now its time to make your move.{" "}
-          <a href="mailto:rajan.ag005@gmail.com">Email me</a> or poke me on{" "}
-          <a href="http://t.heyrajan.com/">Twitter</a>,{" "}
-          <a href="http://www.ig.heyrajan.com">Instagram</a> and{" "}
-          <a href="http://in.heyrajan.com/">Linkedin.</a>
-        </p>
-        <p className="p-manifesto">
-          <span className="yourstruly">Yours Truly,</span>
-          <br />
-          <span className="signiature">Rajan Agarwal</span>
-        </p>
+				<p className="p-manifesto">
+				Alors, portez vos sac a dos et voyagez au Inno, ou vous pouvez explorer le passe et vivre dans le futur. </p>
+    
       </div>
     );
   }

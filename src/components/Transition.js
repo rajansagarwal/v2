@@ -2,13 +2,10 @@ import React, { Component } from "react";
 import ReactTextTransition, { presets } from "react-text-transition";
 
 const texts = [
-  "an author.",
-  " Rajan Agarwal",
-  "innovative.",
-  "curious.",
-  "a hacker.",
-  "a developer.",
-  "an activist.",
+  "innovatifs",
+  "curieux",
+  "ouverts",
+  "forts ensemble"
 ];
 
 class Transition extends Component {
@@ -24,7 +21,7 @@ class Transition extends Component {
         textIndex: this.state.textIndex + 13,
         paragraphIndex: this.state.paragraphIndex + 1,
       });
-    }, 2250);
+    }, 4500);
     setInterval(() => {
       this.setState({
         textFastIndex: this.state.textFastIndex + 1,
@@ -37,7 +34,7 @@ class Transition extends Component {
       <React.Fragment>
         <section>
           <section className="inline">
-            I'm{" "}
+            Nous sommes{" "}
             <ReactTextTransition
               className="transition"
               text={texts[this.state.textIndex % texts.length]}

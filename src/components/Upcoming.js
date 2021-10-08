@@ -9,37 +9,34 @@ class Upcoming extends Component {
   render() {
     return (
       <div>
-        <h5 className="manifesto">WHAT'S NEXT</h5>
-        <p className="p-manifesto refined">A few upcoming initiatives in the queue</p>
+        <h5 className="manifesto">Que pouvons-nous faire?</h5>
         <p className="p-manifesto">
-          <a href="https://www.globalgiving.org/projects/team21108/">
-            <b>Remote Public Health Internship</b>
+          <a href="https://laws-lois.justice.gc.ca/eng/">
+            <b>Visiter la musée de l'histoire</b>
           </a>{" "}
           <br />
-          Raising Awareness about Public Health and Equity in Nigeria
+          Nous célébrons les pieces incroyables de Shakespeare, Galileo, Bach et plus!
           <br />
           <br />
-          <Link to="/">
-            <b>Upside Down</b>
+          <Link to="https://laws-lois.justice.gc.ca/eng/">
+            <b>Visiter centre-ville</b>
           </Link>
           <br />
-          <i>Not Your Typical Podcast</i> • Digestible and Relevant Content
-          about Social Issues
+          Tous les services et preseque la mairie, où vous pouvez discuter la legislation.
           <br />
           <br />
-          <Link to="/">
-            <b>Uprise </b>
+          <Link to="https://laws-lois.justice.gc.ca/eng/">
+            <b>Explorer la nature </b>
           </Link>{" "}
           <br />
-          <i>A startup like none other</i> • I'm building Uprise, a platform that gives a voice to youth.
+          La plupart de la ville est avec de la nature! Regardez votre carte pour plusieurs d'information.
           <br />
           <br />
-          <a href="https://www.instagram.com/_mindson">
-            <b>Minds On </b>
+          <a href="https://laws-lois.justice.gc.ca/eng/">
+            <b>Célébrer la culture!</b>
           </a>{" "}
           <br />
-          <i>A Board-Wide Initiative • </i>Conferences, Podcast and
-          Publications, oh my!
+          La multiculturalisme est très important, et nous respectons les opinions de chaucun!
           <br />
           <br />
         </p>

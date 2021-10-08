@@ -24,18 +24,12 @@ export default function Home() {
               </div>
 							<div className="mainheader">
               <h1 className="hey">
-                Hey{" "}
-                <span role="img" aria-label="emoji">
-                  👋
-                </span>
+                Bienvenue Au Inno!{" "}
               </h1>
               <h1 className="moving">
                 <Transition />
               </h1>
-              <h1 className="still">I'm Rajan</h1>
-							<div  className="subnav pre">
-              <Subnav />
-							</div>
+              <h1 className="still">Bienvenue Au Inno</h1>
 							</div>
             </Col>
           </Row>

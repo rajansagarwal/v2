@@ -6,46 +6,10 @@ class Socials extends Component {
   render() {
     return (
       <div>
-        <h5 className="manifesto">WHERE YOU'LL FIND ME</h5>
-        <p className="p-manifesto refined">
-          A collection of the things I do on a daily basis.
-        </p>
+        <h5 className="manifesto">Pourqoui habitons-nous dans les arbres?</h5>
         <p className="p-manifesto">
-          <a href="https://www.hackclub.com/slack">
-            <b>Hack Club Slack </b>@probably not rajan idk
-          </a>{" "}
-          <br />
-          <i>Think, Build, Ship</i> • Hack Club Slack is a second home to me,
-          with the best community out there.
-          <br />
-          <br />
-          <Link to="/explore">
-            <b>#runforhope </b>~ My 160km Run For Indigenous Awareness
-          </Link>
-          <br />
-          <i>The Long Run </i> • I dedicate time every day towards achieving my
-          goal of 160km in recognition of 160 graves found at Residential
-          Schools.
-          <br />
-          <br />
-          <Link to="/explore">
-            <b>Breaking Barriers </b>~ A hopeful novel
-          </Link>{" "}
-          <br />
-          <i>Write, Delete, Rewrite</i> • Writing is second nature to me. You'll
-          often find me clicking random keys, hoping the right words find their
-          way onto the page.
-          <br />
-          <br />
-          <Link to="/explore">
-            <b>Wellness </b>~ Mental Maintenance
-          </Link>{" "}
-          <br />
-          <i>Being One with my Surroundings</i> • As a large advocate for mental
-          wellbeing, I dedicate time in my day to Yoga, Physical Wellness and
-          external support.
-          <br />
-          <br />
+          Albert Einstein a dit un jour, “La plupart des bonnes choses viennent des arbres”. En donnant de l'oxygène, un espace vivant et les merveilles de la nature. Nous voulons faire un envrionnement ou vous pouvez exprimer notre experiences s'en sentant saufé.  <br/><br/>
+					<img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/79862735-4f21-4ea1-9b7e-1d458a326182-silver-maple-treehouse.jpg" width="100%" alt="houseintree"/>
         </p>
       </div>
     );

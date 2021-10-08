@@ -12,7 +12,7 @@ html, body {
   padding: 0;
   margin: 0;
 		width: 100vm;
-		  background-color: #1a1b22;
+		  background-color: rgb(255, 248, 248);
 
 }
 
@@ -102,7 +102,7 @@ h5 {
 
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 	align-items: left;
 }
 
@@ -131,8 +131,8 @@ p {
 
 a, Link {
 	text-decoration: none;
-    background-color: #c8deec22;
-		color: white;
+    background-color: #fff;
+		color: black;
     padding: 0 .3em !important;
     border-radius: 3px;
 		padding-top: -30px;
@@ -147,9 +147,7 @@ animation-timing-function: ease;
 }
 
 
-.a {
-	background-color: linear-gradient(45deg, blue, red);
-}
+
 .accent1 {
   z-index: 0;
   position: absolute;
@@ -237,67 +235,6 @@ animation-timing-function: ease;
 }
 
 
-
-.hey {
-    animation: easein ease 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.moving {
-    animation: easeinheader 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.pre {
-    animation: easeinheader 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-.animate0 {
-	  animation: easeincontent ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.animate1 {
-	  animation: easeincontent ease 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.animate2 {
-	  animation: easeincontent ease 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.animate3 {
-	  animation: easeincontent ease 7s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-.animate4 {
-	  animation: easeincontent ease 8s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-
-.animate5 {
-	  animation: easeincontent ease 9s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-
-.animate6 {
-	  animation: easeincontent ease 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
 
 
 Explore {
