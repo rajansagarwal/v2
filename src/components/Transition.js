@@ -24,7 +24,7 @@ class Transition extends Component {
         textIndex: this.state.textIndex + 13,
         paragraphIndex: this.state.paragraphIndex + 1,
       });
-    }, 2250);
+    }, 3000);
     setInterval(() => {
       this.setState({
         textFastIndex: this.state.textFastIndex + 1,

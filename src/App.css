@@ -256,45 +256,45 @@ animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
 .animate0 {
-	  animation: easeincontent ease 4s;
+	  animation: easeincontent ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .animate1 {
-	  animation: easeincontent ease 5s;
+	  animation: easeincontent ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .animate2 {
-	  animation: easeincontent ease 6s;
+	  animation: easeincontent ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .animate3 {
-	  animation: easeincontent ease 7s;
+	  animation: easeincontent ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .animate4 {
-	  animation: easeincontent ease 8s;
+	  animation: easeincontent ease 7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 
 .animate5 {
-	  animation: easeincontent ease 9s;
+	  animation: easeincontent ease 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 
 .animate6 {
-	  animation: easeincontent ease 10s;
+	  animation: easeincontent ease 9s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }

@@ -12,7 +12,7 @@ class Socials extends Component {
         </p>
         <p className="p-manifesto">
           <a href="https://www.hackclub.com/slack">
-            <b>Hack Club Slack </b>@probably not rajan idk
+            <b>Hack Club Slack </b>@turbo
           </a>{" "}
           <br />
           <i>Think, Build, Ship</i> • Hack Club Slack is a second home to me,

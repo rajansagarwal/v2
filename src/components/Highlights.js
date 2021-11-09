@@ -10,21 +10,30 @@ class Highlights extends Component {
       <div>
         <h5 className="manifesto">HIGHLIGHTS</h5>
         <p className="p-manifesto">
-          <b>
-            <a href="https://www.devpost.com/software/corex">
-              CoreX - Supercharging Small Businesses
+				<b>
+            <a href="https://tfss.hackclub.com">
+              Launching Turner Fenton Hack Club!
             </a>
           </b>
           <br />
-          <i>August 25</i> • Another weekend, another hackathon W<br />
+          <i>November 7</i> • Building a place to innovate
+          <br />
           <br />
           <b>
-            <a href="https://www.heyrajan.com/ventures">
-              Houston, We are approaching 160km
+            <a href="https://www.devpost.com/software/diplomatica">
+              Diplomatica - Redesigning Political Awareness
             </a>
           </b>
           <br />
-          <i>August 25</i> • My #runforhope is nearing the finish line
+          <i>Sep 17</i> • Gamifying the Public Perspective<br />
+          <br />
+          <b>
+            <a href="https://run.heyrajan.com">
+              My Run For Hope
+            </a>
+          </b>
+          <br />
+          <i>Aug 25</i> • My 160km Journey For Indigenous Awareness
           <br />
           <br />
           <Link to="/staywoke">
@@ -34,15 +43,7 @@ class Highlights extends Component {
           <i>August 25</i> • My very first talk ~ Living Life
           <br />
           <br />
-          <b>
-            <a href="https://www.heyrajan.com">
-              The Release of my Personal Website
-            </a>
-          </b>
-          <br />
-          <i>August 25</i> • Rajan in a few lines of code.
-          <br />
-          <br />
+          
         </p>
       </div>
     );

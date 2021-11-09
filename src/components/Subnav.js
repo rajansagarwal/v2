@@ -8,13 +8,13 @@ class Subnav extends Component {
   render() {
     return (
       <div className="subnavigation">
-        <Link to="/">/home</Link>
+        <Link to="/">home</Link>
         {"     "}
-        <Link to="/explore">/explore</Link>
+        <Link to="/explore">explore</Link>
         {"      "}
-        <Link to="/ventures">/ventures</Link>
+        <Link to="/ventures">ventures</Link>
         {"     "}
-        <Link to="/prev">/prev</Link>
+        <Link to="/prev">experience</Link>
       </div>
     );
   }

@@ -20,18 +20,17 @@ class Upcoming extends Component {
           <br />
           <br />
           <Link to="/">
-            <b>Upside Down</b>
+            <b>OpenMind</b>
           </Link>
           <br />
-          <i>Not Your Typical Podcast</i> • Digestible and Relevant Content
-          about Social Issues
+          <i>Startup</i> • Technological Innovation meets Transportation (Coming Soon)
           <br />
           <br />
-          <Link to="/">
-            <b>Uprise </b>
-          </Link>{" "}
+          <a href="https://tfss.hackclub.com">
+            <b>Turner Fenton Hack Club </b>
+          </a>{" "}
           <br />
-          <i>A startup like none other</i> • I'm building Uprise, a platform that gives a voice to youth.
+          <i>We'Re At Our Best When We're Making</i> • I'm building up the Turner Fenton Hack Club, a makerspace for innovation.
           <br />
           <br />
           <a href="https://www.instagram.com/_mindson">
