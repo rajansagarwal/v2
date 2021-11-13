@@ -54,8 +54,8 @@ html, body {
 @media (max-width: 1200px) {
 
 	.App-header {
-	    padding-left: 3%;
-		padding-right: 3%;
+	    padding-left: 0%;
+		padding-right: 0%;
 	}
 	.break {
 	display: none;

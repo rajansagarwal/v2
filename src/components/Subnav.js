@@ -14,7 +14,7 @@ class Subnav extends Component {
         {"      "}
         <Link to="/ventures">ventures</Link>
         {"     "}
-        <Link to="/prev">experience</Link>
+        <a href="https://garden.heyrajan.com">digital garden</a>
       </div>
     );
   }
